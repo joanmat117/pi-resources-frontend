@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"php -S localhost:3000\" \"pnpx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch\" \"browser-sync start --proxy 'localhost:3000' --files 'src/**/*.php, src/**/*.css, index.php'\"",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+    "dev": "concurrently \"pnpx @tailwindcss/cli -i ./src/input.css -o ./api/output.css --watch\" \"php -S localhost:3000 -t api\" \"browser-sync start --proxy 'localhost:3000' --files 'src/**/*.php, src/**/*.css, api/*.php'\"",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./api/output.css --minify"
   },
   "keywords": [],
   "author": "",
