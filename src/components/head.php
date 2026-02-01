@@ -41,7 +41,7 @@ $config = [
     
     <!-- TailwindCSS -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-    <link href="/src/output.css" rel="stylesheet">
+    <link href="/output.css" rel="stylesheet">
 
     <!-- Bootstrap Icons --->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">

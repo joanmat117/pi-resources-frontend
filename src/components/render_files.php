@@ -30,13 +30,18 @@ foreach ($files as $file) {
 
 ?>
 
-<ul class="flex gap-2 flex-wrap">
+<ul class="flex gap-2 flex-wrap p-2">
   <?php foreach($current_files as $file) : ?>
-  <li class=" p-2 flex-1 min-w-[100px] border rounded-xl text-md">
-      <h2>
+  <li class=" p-2 flex-1 min-w-[100px] cursor-pointer hover:scale-105 hover:border-black/40 transition-all flex flex-col gap-1 items-center justify-center border border-black/20 rounded-xl text-md">
+      <small class="text-2xl">
+      <?= $file["type"] === "tree" 
+        ? "<i class=\"bi bi-folder2\"></i>" 
+        : "<i class=\"bi bi-file-aermark-text\"></i>" 
+      ?>
+      </small>
+      <h2 class="capitalize text-md font-bold">
         <?= htmlspecialchars($file["display_name"]) ?>
       </h2>
-      <small><?= $file["type"] === "tree" ? "📁 Carpeta" : "📄 Archivo" ?></small>
     </li>
   <?php endforeach; ?>
 </ul>

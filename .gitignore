@@ -1,3 +1,5 @@
 node_modules
 .env.local
 .env
+api/output.css
+src/output.css
