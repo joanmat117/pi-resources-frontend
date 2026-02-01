@@ -1,0 +1,518 @@
+{
+  "sha": "0c0d7a110b59df7eb794717c21a7f8424eb3b6fa",
+  "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/0c0d7a110b59df7eb794717c21a7f8424eb3b6fa",
+  "tree": [
+    {
+      "path": "espanol",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bb545995e817da7d7e1c0990433aafa3a0ed72d",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/1bb545995e817da7d7e1c0990433aafa3a0ed72d"
+    },
+    {
+      "path": "espanol/Apuntes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b3493079d60cb21f96078208d3ad53f0a40ccb9",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/6b3493079d60cb21f96078208d3ad53f0a40ccb9"
+    },
+    {
+      "path": "espanol/Apuntes/apuntes_sobre_prueba_de_ingreso_espanol.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ba87b26f0e68596faee67fae8fa4337dfefc7c",
+      "size": 6767,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/32ba87b26f0e68596faee67fae8fa4337dfefc7c"
+    },
+    {
+      "path": "espanol/Ejercicios",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "724cdb00159aee714b4cb3a322545181656e312e",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/724cdb00159aee714b4cb3a322545181656e312e"
+    },
+    {
+      "path": "espanol/Ejercicios/ejercicios_lexico_y_ortografia_#1.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55cc6a6bb9ac22d26db76063b40e31de1ace50d1",
+      "size": 108938,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/55cc6a6bb9ac22d26db76063b40e31de1ace50d1"
+    },
+    {
+      "path": "espanol/Ejercicios/ejercicios_lexico_y_ortografia_#2.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9cc20915006a8e9e65a32250444a11d1d9814c5",
+      "size": 13211,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/a9cc20915006a8e9e65a32250444a11d1d9814c5"
+    },
+    {
+      "path": "espanol/Invariantes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25a8d6fdf41b0125b1fb96324c816e0aaf040880",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/25a8d6fdf41b0125b1fb96324c816e0aaf040880"
+    },
+    {
+      "path": "espanol/Invariantes/invariantes_prueba_de_ingreso_espanol.doc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901b09d4f1cf8d285c5bea2ff599be726a555979",
+      "size": 52224,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/901b09d4f1cf8d285c5bea2ff599be726a555979"
+    },
+    {
+      "path": "espanol/Pruebas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22d30dd098569c920c7e3523226fd0eca1467691",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/22d30dd098569c920c7e3523226fd0eca1467691"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2016_tercera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd3342f823503817bca1308f8f815889bf92bc4",
+      "size": 93932,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/ecd3342f823503817bca1308f8f815889bf92bc4"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2017_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b288ba2b38a810ab7ed9a1974dbe7cffe2c1a47b",
+      "size": 112232,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/b288ba2b38a810ab7ed9a1974dbe7cffe2c1a47b"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2017_segunda_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54ea60b38d2316f33ec25229ca1ce2ec9e47025",
+      "size": 101506,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/a54ea60b38d2316f33ec25229ca1ce2ec9e47025"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2017_tercera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8adb9c4b15f9ee70887008dac1f2990d25a2c24",
+      "size": 78088,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/a8adb9c4b15f9ee70887008dac1f2990d25a2c24"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2018_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f13d4fd979fb1db8cf9be716426e3488af166d1",
+      "size": 135443,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/4f13d4fd979fb1db8cf9be716426e3488af166d1"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2018_segunda_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "549c31847ccf5f81ebceeab0b2dfd85dbab27b4f",
+      "size": 54942,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/549c31847ccf5f81ebceeab0b2dfd85dbab27b4f"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2018_tercera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fcc66591d0e03ad96ec51c3456c74a0a465dc81",
+      "size": 100128,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/1fcc66591d0e03ad96ec51c3456c74a0a465dc81"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2019_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e63766043774b9dd19e474412ba4dcfee189fdb3",
+      "size": 102346,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/e63766043774b9dd19e474412ba4dcfee189fdb3"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2019_segunda_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc5b6128446f823767a8d2b700c5207c3d4cd2c",
+      "size": 133584,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/cbc5b6128446f823767a8d2b700c5207c3d4cd2c"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2019_tercera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db2bf09e821f0f2b1ae97fd25b23897c0805717c",
+      "size": 103559,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/db2bf09e821f0f2b1ae97fd25b23897c0805717c"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2020_artemisa.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "687bf3383fa04206d6b73b17d2e506de6fc7a887",
+      "size": 102624,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/687bf3383fa04206d6b73b17d2e506de6fc7a887"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2020_habana.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb7172d195b66f83cd0bad9fe763a3b94c49e9e",
+      "size": 70343,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/3fb7172d195b66f83cd0bad9fe763a3b94c49e9e"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2020_oriente.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52f2c6e104360a1b01fc9299f8fd3cfd89b1d9b",
+      "size": 68863,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/a52f2c6e104360a1b01fc9299f8fd3cfd89b1d9b"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2021_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c762656fa25fac6305ac769a6a08083a0cb186c6",
+      "size": 101342,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/c762656fa25fac6305ac769a6a08083a0cb186c6"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2022_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc9ceb09b84cd7aa3ba22a580b573c2c310eb1a",
+      "size": 231459,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/5bc9ceb09b84cd7aa3ba22a580b573c2c310eb1a"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2022_segunda_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24eeb12933b8be968e6f47ed6592d2072dd5d5ed",
+      "size": 579850,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/24eeb12933b8be968e6f47ed6592d2072dd5d5ed"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2023_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ff622688972d7a6d081c7387326c9fddacd0c7",
+      "size": 77026,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/e8ff622688972d7a6d081c7387326c9fddacd0c7"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2023_segunda_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa66123d1dcecd46b19d73be1868a80646126db1",
+      "size": 53187,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/fa66123d1dcecd46b19d73be1868a80646126db1"
+    },
+    {
+      "path": "espanol/Pruebas/prueba_de_ingreso_espanol_2024_primera_convocatoria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b6d12bbd2a5bfae97cc5f7b4af7fd3b0898ce5",
+      "size": 631717,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/85b6d12bbd2a5bfae97cc5f7b4af7fd3b0898ce5"
+    },
+    {
+      "path": "espanol/Pruebas/pruebas_ingreso_espanol.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "espanol/Respuestas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57ce685216c2e3e920e684da0102591a560dd1cc",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/57ce685216c2e3e920e684da0102591a560dd1cc"
+    },
+    {
+      "path": "espanol/Respuestas/respuestas_prueba_ingreso_espanol_segunda_convocatoria_villa_clara.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cad48a960ecdce53e237ed81e4fffa7f24f52f2",
+      "size": 30168,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/4cad48a960ecdce53e237ed81e4fffa7f24f52f2"
+    },
+    {
+      "path": "espanol/Resúmenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9367fb3ad41aee04d49d7f67f3f40e9454d4a653",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/9367fb3ad41aee04d49d7f67f3f40e9454d4a653"
+    },
+    {
+      "path": "espanol/Resúmenes/resumen_#1_contenidos_gramaticales_espanol_2020_2021.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ec530b242eee61c25270d466ee5c7ab42d7b36",
+      "size": 255908,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/d3ec530b242eee61c25270d466ee5c7ab42d7b36"
+    },
+    {
+      "path": "espanol/Resúmenes/resumen_#2_contenidos_gramaticales_espanol_2020_2021.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a6c44758f30c4064268724bba9a5615852bc5f1",
+      "size": 263427,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/6a6c44758f30c4064268724bba9a5615852bc5f1"
+    },
+    {
+      "path": "espanol/Temarios",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5853090860d1a745014546d805911a2a4bece29b",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/5853090860d1a745014546d805911a2a4bece29b"
+    },
+    {
+      "path": "espanol/Temarios/10_temarios_preparacion_para_ingreso_2024.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d21056b4cb0e4e32f534d22a4a63540e2a90310",
+      "size": 2388584,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/0d21056b4cb0e4e32f534d22a4a63540e2a90310"
+    },
+    {
+      "path": "espanol/Temarios/temario_espanol_amor_en_los_tiempos_de_colera.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c1a344aa0fd307fc367f592bcdc6d5a06d85a67",
+      "size": 282842,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/6c1a344aa0fd307fc367f592bcdc6d5a06d85a67"
+    },
+    {
+      "path": "espanol/Temarios/temario_espanol_conquista_sentimental.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24dbd2cadd9eda7e0e6ad8489dc00fb1ee45e3d3",
+      "size": 134687,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/24dbd2cadd9eda7e0e6ad8489dc00fb1ee45e3d3"
+    },
+    {
+      "path": "espanol/Temarios/temario_espanol_contexto.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae60fa582543cbd2153b60f86a709fab1e05b90",
+      "size": 132924,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/4ae60fa582543cbd2153b60f86a709fab1e05b90"
+    },
+    {
+      "path": "espanol/Temarios/temario_espanol_domino.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "438b413d8d7085bb80772ef3146ba5da62b03f4f",
+      "size": 134795,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/438b413d8d7085bb80772ef3146ba5da62b03f4f"
+    },
+    {
+      "path": "espanol/Temarios/temario_espanol_el_coche.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4047c43604d9a52b5f63b2c7bf094032e4f22c23",
+      "size": 138858,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/4047c43604d9a52b5f63b2c7bf094032e4f22c23"
+    },
+    {
+      "path": "historia",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e284cba504947f3d5f014ff7989d5b10cfc420e",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/7e284cba504947f3d5f014ff7989d5b10cfc420e"
+    },
+    {
+      "path": "historia/Comprobaciones",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b47320a2c7d5aa3487363c59020848e11576f5c9",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/b47320a2c7d5aa3487363c59020848e11576f5c9"
+    },
+    {
+      "path": "historia/Comprobaciones/segunda_comprobacion_historia_12_grado.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95154f03db202d85277bf24ef881725e3e9ed434",
+      "size": 15995,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/95154f03db202d85277bf24ef881725e3e9ed434"
+    },
+    {
+      "path": "historia/Pruebas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0e559a3d98c0bc907f3682f1b8fe49f4bff4aab",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/b0e559a3d98c0bc907f3682f1b8fe49f4bff4aab"
+    },
+    {
+      "path": "historia/Pruebas/pruebas_de_ingreso_historia_hasta_2023.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79fe336dcff5993e9fdd2631df88b966ef3bb575",
+      "size": 749547,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/79fe336dcff5993e9fdd2631df88b966ef3bb575"
+    },
+    {
+      "path": "historia/Resúmenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdb3dab2f43d6ee46c5205018582970fdfbcf810",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/fdb3dab2f43d6ee46c5205018582970fdfbcf810"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_cronologia_historia_desde_1868_hasta_1985.doc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "253c185f835aac3d5735feb646c3a311298baa78",
+      "size": 371712,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/253c185f835aac3d5735feb646c3a311298baa78"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_para_prueba_de_ingreso_historia_2025_profe_aisme.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2eeec5913f80b67b58185c972b51daf94fe149",
+      "size": 1719076,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/aa2eeec5913f80b67b58185c972b51daf94fe149"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_para_prueba_de_ingreso_historia_profe_ruben.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b02c422fef7cc230280c04e2e4850f1283f0621",
+      "size": 1487718,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/2b02c422fef7cc230280c04e2e4850f1283f0621"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_prueba_de_ingreso_historia_6_unidades_profe_digsan.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a0a1010a9ac352ecac4a9510d120cdef64ed537",
+      "size": 4183427,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/9a0a1010a9ac352ecac4a9510d120cdef64ed537"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_unidad_3_historia.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95a0a7357f15903975973caa04eebd92cb263f27",
+      "size": 425868,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/95a0a7357f15903975973caa04eebd92cb263f27"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_unidad_4_historia.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f511711361ce0c5a2352eebdf8eba7b42c194e7f",
+      "size": 481336,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/f511711361ce0c5a2352eebdf8eba7b42c194e7f"
+    },
+    {
+      "path": "historia/Resúmenes/resumen_valoraciones_principales_figuras_historia_.doc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb4cae87fedf1eb4e9aab40b56a20b7fb724658",
+      "size": 99840,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/cbb4cae87fedf1eb4e9aab40b56a20b7fb724658"
+    },
+    {
+      "path": "libros",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84a9ac70ed36dc44720760c7305c0442f122a4e3",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/84a9ac70ed36dc44720760c7305c0442f122a4e3"
+    },
+    {
+      "path": "libros/libro_entrenate_en_la_geometria.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f1dc466c69466f088c931e91a7c3a048e2c652",
+      "size": 4612378,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/84f1dc466c69466f088c931e91a7c3a048e2c652"
+    },
+    {
+      "path": "libros/libro_que_voy_a_estudiar.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92669d64c273f9848389a29a9022562c7ec54399",
+      "size": 1049928,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/92669d64c273f9848389a29a9022562c7ec54399"
+    },
+    {
+      "path": "matematica",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1808b66a91abe3c5f14aab10465de1172c2ade23",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/1808b66a91abe3c5f14aab10465de1172c2ade23"
+    },
+    {
+      "path": "matematica/Pruebas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0410d2d39533060f0fffb2dbf4d7fd3eb0821752",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/0410d2d39533060f0fffb2dbf4d7fd3eb0821752"
+    },
+    {
+      "path": "matematica/Pruebas/pruebas_de_ingreso_matematica_desde_1988_hasta_2025.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e99a0b1252e46f9f37c0e25e65baddf19c9654d",
+      "size": 12518091,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/1e99a0b1252e46f9f37c0e25e65baddf19c9654d"
+    },
+    {
+      "path": "matematica/Repasos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb76659688767c85410a4a3460c1029ef99c517b",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/fb76659688767c85410a4a3460c1029ef99c517b"
+    },
+    {
+      "path": "matematica/Repasos/repaso_prueba_de_ingreso_matematica_2021_profe_camilo.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c2a160c2c13b2fa2cc78e73811dc0e6fefe0fb4",
+      "size": 1304030,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/2c2a160c2c13b2fa2cc78e73811dc0e6fefe0fb4"
+    },
+    {
+      "path": "matematica/Respuestas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d8c84c427ece45891a3331be6e943ba13688cc2",
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/trees/9d8c84c427ece45891a3331be6e943ba13688cc2"
+    },
+    {
+      "path": "matematica/Respuestas/respuestas_finito_1_2024.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95de66b6ef8e19c77177e223135f0609debd2ee5",
+      "size": 549959,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/95de66b6ef8e19c77177e223135f0609debd2ee5"
+    },
+    {
+      "path": "matematica/Respuestas/respuestas_prueba_de_ingreso_matematica_2024.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40aaa3cf393f8916558797446b3ebaadbbfe6de",
+      "size": 772668,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/a40aaa3cf393f8916558797446b3ebaadbbfe6de"
+    },
+    {
+      "path": "matematica/Respuestas/respuestas_prueba_de_ingreso_matematica_2025.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7468578a7a3b0dc444d93ebfac2d6a6bd82699f",
+      "size": 796015,
+      "url": "https://api.github.com/repos/joanmat117/pruebas-de-ingreso-recursos/git/blobs/e7468578a7a3b0dc444d93ebfac2d6a6bd82699f"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "pi-resources-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"php -S localhost:3000\" \"pnpx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch\" \"browser-sync start --proxy 'localhost:3000' --files 'src/**/*.php, src/**/*.css, index.php'\"",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1"
+  }
+}

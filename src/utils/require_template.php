@@ -5,7 +5,7 @@ function require_components(string $url,array $args){
   
   extract($args);
 
-  require("components/$url.php");
+  require(ROOT . "/src/components/$url.php");
 
 }
 
