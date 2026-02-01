@@ -1,6 +1,6 @@
 <?php
   declare(strict_types=1);
-  define('ROOT', __DIR__ . "/../");
+  define('ROOT', __DIR__);
 
   require(ROOT . "src/utils/require_template.php");
   require(ROOT . "src/models/resource_repo.php");
