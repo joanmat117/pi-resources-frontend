@@ -45,4 +45,13 @@ $config = [
 
     <!-- Bootstrap Icons --->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <script>
+        // Este script se ejecuta en scope global
+        window.filesData = <?= json_encode($files, JSON_HEX_TAG | JSON_HEX_APOS) ?>;
+        window.initialPath = "<?= addslashes($current_path ?? '') ?>";
+    </script>
+
+  <script type="module" defer src="src/js/main.js" />
+  <script type="module" defer src="src/js/fileBrowser.js" />
 </head>

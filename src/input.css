@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@custom-variant hover (&:hover);
+
+@theme inline {
+  --color-primary: #48e;
+}
 
 html {
   @apply bg-slate-100 text-slate-800;
