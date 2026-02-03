@@ -6,9 +6,9 @@ $config = [
     'title' => 'Recursos para Prueba de Ingreso - Cuba',
     'description' => 'Recursos para pruebas de ingreso cuba, pruebas, resúmenes, ejercicios, respuestas',
     'image' => 'https://i.postimg.cc/vTmDLdHH/public-examination-preparation-concept-23-2149369870.avif',
-    'url' => 'https://pruebas-de-ingreso.wasmer.com' . $_SERVER['REQUEST_URI'],
-    'site_name' => 'Mi Sitio Web',
-    'canonical' => 'https://pruebas-de-ingreso.wasmer.com' . strtok($_SERVER['REQUEST_URI'], '?')
+    'url' => 'https://pruebas-de-ingreso.wasmer.app' . $_SERVER['REQUEST_URI'],
+    'site_name' => 'Recursos para Prueba de Ingreso',
+    'canonical' => 'https://pruebas-de-ingreso.wasmer.app' . strtok($_SERVER['REQUEST_URI'], '?')
 ];
 ?>
 
