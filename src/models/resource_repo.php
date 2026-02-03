@@ -22,12 +22,19 @@ class ResourceRepo {
         $response = file_get_contents(self::ENDPOINT, false, $this->context); 
         
         if ($response === false) {
-            return []; // Manejo básico de error
+            // Si falla la conexión con la API, usar el archivo mock
+            return $this->get_all_files_mock();
         }
 
         $data = json_decode($response, true);
         
-        return $data['tree'] ?? [];
+        // Si la API devuelve una respuesta vacía o sin el campo 'tree',
+        // también usar el archivo mock
+        if (empty($data) || !isset($data['tree'])) {
+            return $this->get_all_files_mock();
+        }
+
+        return $data['tree'];
     }
 
     public function get_all_files_mock(): array {
@@ -41,5 +48,4 @@ class ResourceRepo {
         
         return $data['tree'] ?? [];
     }
-
 }
