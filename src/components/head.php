@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 $config = [
     'title' => 'Recursos para Prueba de Ingreso - Cuba',
-    'description' => 'Descubre nuestros productos exclusivos con la mejor calidad.',
-    'image' => 'https://tudominio.com/images/og-image.jpg',
-    'url' => 'https://tudominio.com' . $_SERVER['REQUEST_URI'],
+    'description' => 'Recursos para pruebas de ingreso cuba, pruebas, resúmenes, ejercicios, respuestas',
+    'image' => 'https://i.postimg.cc/vTmDLdHH/public-examination-preparation-concept-23-2149369870.avif',
+    'url' => 'https://pruebas-de-ingreso.wasmer.com' . $_SERVER['REQUEST_URI'],
     'site_name' => 'Mi Sitio Web',
-    'canonical' => 'https://tudominio.com' . strtok($_SERVER['REQUEST_URI'], '?')
+    'canonical' => 'https://pruebas-de-ingreso.wasmer.com' . strtok($_SERVER['REQUEST_URI'], '?')
 ];
 ?>
 

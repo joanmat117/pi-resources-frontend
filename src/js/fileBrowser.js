@@ -125,7 +125,9 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
       </button>
         `
 
-        container.innerHTML = processedFiles.map(file => `
+        container.innerHTML = processedFiles.flatMap(file => {
+          if(file.ext === 'md') return []
+          return `
             <div class="file-card group animate-pulse-fade-in duration-100 transition-all relative my-2 p-2 flex flex-col w-full items-center justify-start 
                 border border-foreground/20 rounded-xl transition-all duration-200 
                 hover:border-primary cursor-pointer"
@@ -176,7 +178,7 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
                     : ''
                 }
             </div>
-        `).join('');
+        `}).join('');
     }
     
     const api = {
