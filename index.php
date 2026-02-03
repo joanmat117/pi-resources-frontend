@@ -7,7 +7,7 @@
 
   $resource_repo = new ResourceRepo();
 
-  $files = $resource_repo->get_all_files_mock();
+  $files = $resource_repo->get_all_files();
 ?>
 <!DOCTYPE html>
 <html lang="es-ES"> 
@@ -16,10 +16,10 @@
     <?= require_components('header',["title"=>"Recursos Prueba de Ingreso Cuba"]) ?>
   
     <main class="min-h-screen mx-auto max-w-4xl px-2 py-5">
-    <div id="files-breadcrumb" class="border rounded-full px-3 mb-2 border-foreground/30 p-1" ></div>
+    <div id="files-breadcrumb" class="border rounded-full px-3 mb-2 border-foreground/20 p-1 flex flex-wrap overflow-auto" ></div>
     <div id="go-back-btn"></div>
       
-      <section id="files-container" class="grid gap-2 grid-cols-2 md:grid-cols-3">
+      <section id="files-container" class="grid gap-1 md:gap-2 grid-cols-1 md:grid-cols-3">
 
       </section>
 

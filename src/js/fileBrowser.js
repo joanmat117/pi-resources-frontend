@@ -29,6 +29,7 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
                 : file.path;
             const clean = relative.replace(/^\//, "");
             const name = clean.split("/")[0];
+            const ext = name.split('.')[1]
             
             if (seen.has(name)) return ;
             seen.add(name);
@@ -37,7 +38,8 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
                 ...file,
                 display_name: name,
                 is_folder: file.type === "tree",
-                full_relative_path: clean
+                full_relative_path: clean,
+                ext
             })
       })
       return cFiles
@@ -115,17 +117,17 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
     // Renderizar archivos
     function renderFiles() {
 
-        goBackBtn.innerHTML = `<button id=\"files-go-back\" class=\"${!currentPath && 'hidden'} flex gap-2 items-center justify-center text-sm p-1 rounded-xlpx-2 cursor-pointer\">
+        goBackBtn.innerHTML = `<button id=\"files-go-back\" class=\"${!currentPath && 'hidden'} flex gap-2 items-center justify-center text-sm p-1 rounded-xl px-2 cursor-pointer\">
         <i class=\"bi bi-caret-left-fill\"></i>
-        <p class=\"text-md font-bold\">
+        <p class=\"text-md font-semibold\">
           Regresar
         </p>
       </button>
         `
 
         container.innerHTML = processedFiles.map(file => `
-            <div class="file-card group animate-pulse-fade-in duration-100 transition-all relative my-2 p-2 flex flex-col items-center justify-start 
-                border border-foreground/30 rounded-xl transition-all duration-200 
+            <div class="file-card group animate-pulse-fade-in duration-100 transition-all relative my-2 p-2 flex flex-col w-full items-center justify-start 
+                border border-foreground/20 rounded-xl transition-all duration-200 
                 hover:border-primary cursor-pointer"
           ${file.is_folder ? '' : 
             `download 
@@ -139,8 +141,8 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
               </div>` 
               : 
             `
-              <div class="flex flex-col gap-1 items-center rounded-xl justify-center p-4 bg-primary text-white">
-              <i class="bi bi-arrow-down-circle text-3xl"></i>
+              <div class="flex flex-col mb-auto gap-1 items-center rounded-xl justify-center p-4 bg-primary text-white w-full transition-all active:scale-80">
+              <i class="bi bi-arrow-down-circle-fill text-3xl"></i>
               <h2 class="text-center text-md leading-6 font-medium">
                 ${formatFileName(file.display_name)}
               </h2>
@@ -153,11 +155,18 @@ export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbI
                         ${formatFileName(file.display_name)}
                     </h3>` : ''
                     }
+                  <div class="flex gap-2 items-start pt-1 justify-center">
                     ${
-                      file.size ? `<div class="mt-1 rounded-full text-sm px-2 border-2 text-primary font-semibold bg-primary/10 border-primary">
+                      file.size ? `<div class="mt-1 rounded-full text-sm px-2  text-primary font-semibold">
                         ${formatBytes(file.size)}
                       </div>` : ''
                     }
+                    ${
+                      file.ext ? `<div class="mt-1 rounded-lg text-sm px-2 border-2 text-primary font-semibold bg-primary/10 border-primary uppercase">
+                        ${file.ext}
+                      </div>` : ''
+                    }
+                  </div>
                 </div>
                 
                 ${file.is_folder 
