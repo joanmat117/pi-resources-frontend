@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 $config = [
-    'title' => 'Mi Sitio Web - Productos Increíbles',
+    'title' => 'Recursos para Prueba de Ingreso - Cuba',
     'description' => 'Descubre nuestros productos exclusivos con la mejor calidad.',
     'image' => 'https://tudominio.com/images/og-image.jpg',
     'url' => 'https://tudominio.com' . $_SERVER['REQUEST_URI'],
@@ -40,18 +40,14 @@ $config = [
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
     <!-- TailwindCSS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
     <link href="src/output.css" rel="stylesheet">
 
     <!-- Bootstrap Icons --->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-  <script>
-        // Este script se ejecuta en scope global
-        window.filesData = <?= json_encode($files, JSON_HEX_TAG | JSON_HEX_APOS) ?>;
-        window.initialPath = "<?= addslashes($current_path ?? '') ?>";
-    </script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght@17..18,400..700&display=swap" rel="stylesheet">
 
-  <script type="module" defer src="src/js/main.js" />
-  <script type="module" defer src="src/js/fileBrowser.js" />
 </head>

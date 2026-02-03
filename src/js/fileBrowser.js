@@ -7,15 +7,13 @@ import { downloadFromGithub } from "./downloadFromGithub.js";
  * @param {string} containerId - ID del contenedor HTML
  * @returns {Object} API pública del navegador
  */
-export function createFileBrowser(filesData, containerId) {
+export function createFileBrowser(filesData, containerId,goBackBtnId,breadCrumbId) {
     let currentPath = "";
     let processedFiles = [];
     
     const container = document.getElementById(containerId);
-    //const breadcrumb = document.createElement('div');
-    //breadcrumb.className = 'breadcrumb mb-4 p-2 bg-gray-100 rounded';
-    
-    //container.parentNode.insertBefore(breadcrumb, container);
+    const goBackBtn = document.getElementById(goBackBtnId)
+    const breadcrumb = document.getElementById(breadCrumbId);
     
     function processFiles() {
       const seen = new Set();
@@ -75,19 +73,23 @@ export function createFileBrowser(filesData, containerId) {
         processedFiles = processFiles();
         
         // Actualizar breadcrumb
-        //updateBreadcrumb();
+        updateBreadcrumb();
         
         // Actualizar lista de archivos
         renderFiles();
     }
     
     // Renderizar breadcrumb
-    function updateBreadcrumb() {
+  function updateBreadcrumb() {
+        const Separator = '<i class="bi bi-slash-lg text-gray-400"></i>'
+
         const parts = currentPath.split("/").filter(p => p);
         const items = [
-            `<span class="cursor-pointer text-blue-600 hover:underline" onclick="window.fileBrowser.goHome()">
-                <i class="bi bi-house-door"></i> Inicio
-            </span>`
+            `<span class="cursor-pointer hover:underline" onclick="window.fileBrowser.goHome()">
+          Inicio
+          </span>
+          ${Separator}
+          `
         ];
         
         let accumulatedPath = "";
@@ -96,17 +98,15 @@ export function createFileBrowser(filesData, containerId) {
             const isLast = index === parts.length - 1;
             
             if (!isLast) {
-                items.push(`<span class="cursor-pointer text-blue-600 hover:underline" 
+                items.push(`<span  class="cursor-pointer hover:underline" 
                     onclick="window.fileBrowser.navigateToPath('${accumulatedPath}')">
-                    ${part}
+                    ${formatFileName(part)}
                 </span>`);
             } else {
-                items.push(`<span class="font-bold">${part}</span>`);
+                items.push(`<span class="font-semibold">${formatFileName(part)}</span>`);
             }
             
-            if (!isLast) {
-                items.push('<i class="bi bi-chevron-right mx-1 text-gray-400"></i>');
-            }
+            items.push(Separator);
         });
         
         breadcrumb.innerHTML = `<div class="flex items-center gap-1">${items.join('')}</div>`;
@@ -114,12 +114,19 @@ export function createFileBrowser(filesData, containerId) {
     
     // Renderizar archivos
     function renderFiles() {
-      console.log(processedFiles)
+
+        goBackBtn.innerHTML = `<button id=\"files-go-back\" class=\"${!currentPath && 'hidden'} flex gap-2 items-center justify-center text-sm p-1 rounded-xlpx-2 cursor-pointer\">
+        <i class=\"bi bi-caret-left-fill\"></i>
+        <p class=\"text-md font-bold\">
+          Regresar
+        </p>
+      </button>
+        `
+
         container.innerHTML = processedFiles.map(file => `
-            <div class="file-card group relative my-2 p-2 flex flex-col items-center justify-start 
-                border border-gray-300 rounded-xl transition-all duration-200 
-                hover:border-primary cursor-pointer
-          ${file.is_folder ? 'hover:bg-blue-50' : 'hover:bg-gray-50'}"
+            <div class="file-card group animate-pulse-fade-in duration-100 transition-all relative my-2 p-2 flex flex-col items-center justify-start 
+                border border-foreground/30 rounded-xl transition-all duration-200 
+                hover:border-primary cursor-pointer"
           ${file.is_folder ? '' : 
             `download 
             href="https://raw.githubusercontent.com/joanmat117/pruebas-de-ingreso-recursos/main/${file.path}" ` }
@@ -127,8 +134,8 @@ export function createFileBrowser(filesData, containerId) {
                 
           ${file.is_folder 
               ? 
-              `<div class="text-4xl mb-2 transition-transform group-hover:scale-110">
-                  <i class="bi bi-folder-fill text-blue-500"></i> 
+              `<div class="text-4xl mb-2 transition-transform">
+                  <i class="bi bi-folder-fill text-primary"></i> 
               </div>` 
               : 
             `
@@ -142,20 +149,20 @@ export function createFileBrowser(filesData, containerId) {
               }
                 
                 <div class="text-center">
-                  ${file.is_folder ? `<h3 class="font-semibold text-gray-800 capitalize">
+                  ${file.is_folder ? `<h3 class="font-semibold text-foreground capitalize">
                         ${formatFileName(file.display_name)}
                     </h3>` : ''
                     }
                     ${
-                      file.size ? `<div class="mt-1 rounded-full px-2 border-2 text-primary font-semibold bg-primary/10 border-primary">
+                      file.size ? `<div class="mt-1 rounded-full text-sm px-2 border-2 text-primary font-semibold bg-primary/10 border-primary">
                         ${formatBytes(file.size)}
                       </div>` : ''
                     }
                 </div>
                 
                 ${file.is_folder 
-                    ? `<div class="absolute top-2 right-2 text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <i class="bi bi-arrow-right-circle"></i>
+                    ? `<div class="absolute top-2 right-2 text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                        <i class="bi bi-chevron-right"></i>
                        </div>`
                     : ''
                 }

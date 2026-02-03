@@ -1,13 +1,20 @@
 import {createFileBrowser} from "./fileBrowser.js"
 
+const data = {
+  goBackBtnId: 'go-back-btn',
+  containerId: 'files-container',
+  breadCrumbId:'files-breadcrumb'
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+
     console.log('Inicializando navegador de archivos...');
 
     console.log(window.filesData)
     // Verificar que tenemos datos
     if (!window.filesData) {
         console.error('No se encontraron datos de archivos');
-        document.getElementById('files-container').innerHTML = `
+        document.getElementById(data.containerId).innerHTML = `
             <div class="col-span-full text-center text-red-600 p-8">
                 <i class="bi bi-exclamation-triangle text-4xl mb-4"></i>
                 <p class="text-xl font-semibold">Error al cargar los archivos</p>
@@ -19,14 +26,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicializar el navegador
     const fileBrowser = createFileBrowser(
         window.filesData, 
-        'files-container'
+      data.containerId,
+      data.goBackBtnId,
+      data.breadCrumbId
     );
     
     if (window.initialPath) {
+      console.log('Initial path: ',window.initialPath)
         fileBrowser.navigateToPath(window.initialPath);
     }
 
-    const goBackBtn = document.getElementById('files-go-back')
+    const goBackBtn = document.getElementById(data.goBackBtnId)
   if(goBackBtn) goBackBtn.addEventListener('click',()=>{
     console.log('goback')
     fileBrowser.goBack()
